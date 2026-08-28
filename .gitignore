@@ -1,0 +1,19 @@
+# Do not commit original game binaries or full decompiler outputs
+*.exe
+*.dll
+*.pdb
+*.idb
+*.i64
+*.ghidra
+
+# Full generated decompilations
+*decompiled*.c
+Wolf2.exe*.c
+Gamex86.dll*.c
+
+# Build output
+build/
+Debug/
+Release/
+*.obj
+*.o
